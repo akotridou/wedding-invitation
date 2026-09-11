@@ -43,6 +43,8 @@ This project helped me practice:
 - JavaScript DOM manipulation
 - Event listeners
 - Form handling
+
+🔗 **Live Demo:** (https://akotridou.github.io/SOC-dashboard/)
 - Form validation
 - Countdown timers
 - Dynamic content
