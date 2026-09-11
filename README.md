@@ -43,11 +43,10 @@ This project helped me practice:
 - JavaScript DOM manipulation
 - Event listeners
 - Form handling
-
-🔗 **Live Demo:** (https://akotridou.github.io/SOC-dashboard/)
 - Form validation
 - Countdown timers
 - Dynamic content
 - Database integration with Supabase
 - Connecting a frontend application with a backend service
 
+🔗 **Live Demo:** (https://akotridou.github.io/wedding-invitation/)
