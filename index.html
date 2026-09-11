@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David & Anna | 27.09.2027</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="loader" id="loader">
+        <div class="loader-names">
+            David & Anna
+        </div>
+    </div>
+
+    <header class="hero">
+        <nav class="nav">
+            <a href="#details">THE DAY</a>
+            <a href="#story">OUR STORY</a>
+            <a href="#rsvp">RSVP</a>
+        </nav>
+
+        <div class="hero-content">
+            <p class="eyebrow">A SPECIAL DAY</p>
+            <h1>David <span>&</span> Anna</h1>
+            <p class="hero-date">27 · 09 · 2027</p>
+            <p class="hero-subtitle">We are getting married</p>
+            <a href="#welcome" class="scroll-link">SCROLL<span>↓</span></a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- WELCOME -->
+        <section class="welcome section" id="welcome">
+            <p class="eyebrow">WITH LOVE</p>
+
+            <h2>We would love<br>
+                <em>to celebrate with you.</em>
+            </h2>
+
+            <div class="ornament">✦</div>
+
+            <p class="intro">
+                A new beginning,
+                a beautiful moment
+                and the people we love
+                by our side.
+
+                We cannot wait to share
+                this special day with you.
+            </p>
+        </section>
+
+        <!-- DETAILS -->
+        <section class="details section" id="details">
+            <div class="section-heading">
+                <p class="eyebrow">THE WEDDING DAY</p>
+                <h2>Our day</h2>
+            </div>
+
+            <div class="event-grid">
+
+                <!-- CEREMONY -->
+                <article class="event-card">
+                    <span class="event-number">01</span>
+                    <div class="event-icon">♡</div>
+
+                    <p class="event-label">CEREMONY</p>
+
+                    <h3>St. Andrew's<br>Church</h3>
+                    <p>Greece</p>
+                    <strong>19:00</strong>
+                </article>
+
+                <!-- RECEPTION -->
+                <article class="event-card">
+                    <span class="event-number">02</span>
+
+                    <div class="event-icon">✦</div>
+                    <p class="event-label">RECEPTION</p>
+                    <h3>Rosewood<br>Estate</h3>
+                    <p>Dinner · Drinks · Dancing</p>
+                    <strong>After the ceremony</strong>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- COUNTDOWN -->
+        <section class="countdown section">
+            <p class="eyebrow">COUNTING DOWN</p>
+
+            <h2>Until we say<br><em>“forever.”</em></h2>
+
+            <div class="timer">
+                <div>
+                    <strong id="days">--</strong>
+                    <span>DAYS</span>
+                </div>
+
+                <div>
+                    <strong id="hours">--</strong>
+                    <span>HOURS</span>
+                </div>
+
+                <div>
+                    <strong id="minutes">--</strong>
+                    <span>MINUTES</span>
+                </div>
+
+                <div>
+                    <strong id="seconds">--</strong>
+                    <span>SECONDS</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- STORY -->
+        <section class="story section" id="story">
+            <div class="story-copy">
+                <p class="eyebrow">OUR STORY</p>
+
+                <h2>A moment that<br><em>becomes a memory.</em></h2>
+
+                <p>
+                    Every beautiful story
+                    has its own beginning.
+
+                    Ours continues
+                    on a day filled with love,
+                    smiles and the people
+                    who hold a special place
+                    in our hearts.
+                </p>
+            </div>
+
+            <div class="story-frame">
+                <img src="image/weddingimg.jpg" alt="David and Anna">
+            </div>
+        </section>
+
+        <!-- RSVP -->
+        <section class="rsvp section" id="rsvp">
+            <p class="eyebrow">RSVP</p>
+
+            <h2>Will you join us?</h2>
+
+            <p class="rsvp-intro">
+                Please let us know by
+                <strong>31 August 2027</strong>
+            </p>
+
+            <!-- YES / NO / MAYBE -->
+            <div class="choice-grid" id="choices">
+
+                <button class="choice" type="button" data-answer="yes">
+                    <span>YES, I'LL BE THERE</span>
+                    <span>♡</span>
+                </button>
+
+                <button class="choice" type="button" data-answer="no">
+                    <span>NO, I CAN'T MAKE IT</span>
+                    <span>→</span>
+                </button>
+
+                <button class="choice choice-full" type="button" data-answer="maybe">
+                    <span>NOT SURE YET</span>
+                    <span>?</span>
+                </button>
+            </div>
+
+            <!-- FORM -->
+            <form class="rsvp-form hidden" id="rsvpForm">
+
+                <label>FULL NAME
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Your name"
+                        required
+                    >
+                </label>
+
+                <div id="guestsField">
+                    <label>
+                        NUMBER OF GUESTS
+                        <select id="guests" required>
+                            <option value="">Select</option>
+                            <option value="1">1 guest</option>
+                            <option value="2">2 guests</option>
+                            <option value="3">3 guests</option>
+                            <option value="4">4 guests</option>
+                            <option value="5">5 guests</option>
+                            <option value="6">6 guests</option>
+                        </select>
+                    </label>
+                </div>
+
+                <label>MESSAGE
+                    <textarea
+                        id="message"
+                        rows="4"
+                        placeholder="A little message for the couple..."
+                    ></textarea>
+                </label>
+
+                <button class="submit-btn" type="submit">SUBMIT RSVP<span>↗</span></button>
+                <button class="back-btn" type="button" id="backButton">← BACK</button>
+            </form>
+
+            <!-- SUCCESS / FEEDBACK -->
+            <div class="feedback hidden" id="feedback"></div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-monogram">D<span>&</span>A</div>
+        <p>27 · 09 · 2027</p>
+        <small>WITH LOVE, DAVID & ANNA</small>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
