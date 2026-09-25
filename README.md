@@ -3,6 +3,8 @@
 A modern and elegant wedding invitation website created as a front-end web development project.
 The website includes wedding details, an interactive countdown, an RSVP form and a responsive design suitable for desktop and mobile devices.
 
+🔗 **Live Demo:** (https://akotridou.github.io/wedding-invitation/)
+
 ## ✨ Features
 
 - 💍 Elegant wedding invitation design
@@ -28,8 +30,8 @@ The original RSVP flow allowed submitted guest information to be stored in the d
 For the public portfolio version, the Supabase connection and credentials have been removed for security reasons. The RSVP functionality is currently presented as a front-end demo.
 
 ## 🛠️ Technologies
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - Supabase
 - PostgreSQL
@@ -48,5 +50,3 @@ This project helped me practice:
 - Dynamic content
 - Database integration with Supabase
 - Connecting a frontend application with a backend service
-
-🔗 **Live Demo:** (https://akotridou.github.io/wedding-invitation/)
